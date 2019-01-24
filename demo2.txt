@@ -1,2 +1,2 @@
 Toisella demokerralla kaikki tehtävät tehty. Kansiosta demo2 löytyy koodit, kytkentäkaavio ja video löytyvät osoitteesta:
-users.jyu.fi/~tiea345/
+users.jyu.fi/~lajopoik/tiea345/
