@@ -1,0 +1,7 @@
+Video osoitteessa: users.jyu.fi/~lajopoik/tiea345/demo33.mp4
+Videon pituus muutoksista johtuen 17s560ms
+käskyt:
+	raspivid -t 15000 -w 640 -h 480 -o demo33.h264
+	MP4Box -add demo33.h264 demo33.mp4
+	pituus tarkistettu: mediainfo demo33.mp4
+	Mahdollista että väärä pituus tulee mp4-tiedostoksi muuttaessa, kokeiltu kuitenkin kahta käännintä joilla sama pituus. Ei ollut mediatoistinta joka olisi voinut tarkistaa onko .h264 oikean mittainen. Asentamalla ohjelma selviäisi
