@@ -1,1 +1,2 @@
-Kaikki kohdat on tehty, videon linkki löytyy demo33.txt:stä, kohta 3.1 sisältyy 3.2, 3.4 sisältyy 3.5
+Kaikki kohdat on tehty, videon linkki löytyy demo33.txt:stä, kohta 3.1 sisältyy 3.2.
+3.5 löytyy tiedostosta demo36.html, jossa myös selostus 
