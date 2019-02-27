@@ -1,0 +1,4 @@
+Tehty tehtävä 5.2, liikennevalot painikkeella toteutettuna
+ei liiketunnistinta
+
+HUOM, demot 3.5 ja 3.6 löytyvät kansiosta demo3 tiedostosta demo36.html, näistä ei vielä pisteitä

@@ -9,6 +9,7 @@
 #define BUTTON 22
 
 int main() {
+	//Valmistetaan pinnit ottamaan vastaan 
 	wiringPiSetupGpio();
 	pinMode(RED,OUTPUT);
 	pinMode(YELLOW, OUTPUT);
@@ -16,10 +17,11 @@ int main() {
 	pinMode(PRED, OUTPUT);
 	pinMode(PGREEN,OUTPUT);
 	pinMode(BUTTON,INPUT);
-	
+	//pyörii jatkuvasti, ei pääse kohtaan return 0
 	while(1){	
 		digitalWrite(GREEN,HIGH);
 		digitalWrite(PRED, HIGH);
+		//kuuntelee nappulaa
 		if(digitalRead(BUTTON)){
 			delay(3000);
 			digitalWrite(GREEN,LOW);
