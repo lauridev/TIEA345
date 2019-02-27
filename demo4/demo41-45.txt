@@ -1,0 +1,18 @@
+4.1
+	motion asennettu, muutokset motion.conffissa
+		logfile /home/pi/motion/motion.log
+		target_dir /home/pi/motion/kuvat
+4.2
+	2 kuvaa ennen liikettä
+		pre_capture 2
+	5 sek kuvia liikkeen jälkeen
+		framerate 2
+		post_capture 10
+4.3
+
+4.4
+
+4.5
+	Asennettu ilman ongelmia, mitatut ajat:
+	time sudo make -j3; real 91m, user 264m, sys 7m
+	time sudo make install; real 216m, user 210m, sys 5m
